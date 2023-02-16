@@ -1,0 +1,39 @@
+{
+  "name": "Strapi template",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi template by kapustin.team",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@notum-cz/strapi-plugin-content-versioning": "^0.4.7",
+    "@strapi/plugin-color-picker": "^4.5.5",
+    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-seo": "^1.7.7",
+    "@strapi/plugin-users-permissions": "^4.6.1",
+    "@strapi/strapi": "^4.6.1",
+    "better-sqlite3": "7.4.6",
+    "strapi-plugin-cookie-manager": "^1.0.8",
+    "strapi-plugin-duplicate-button": "^1.0.4",
+    "strapi-plugin-email-designer": "^2.1.2",
+    "strapi-plugin-init-admin-user": "^0.2.1",
+    "strapi-plugin-oembed": "^1.0.1",
+    "strapi-plugin-sitemap": "^2.0.9"
+  },
+  "author": {
+    "name": "kapustin.team"
+  },
+  "strapi": {
+    "uuid": "c876b717-daf7-44e2-acc2-018eec2af6c3"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
