@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'WEBSITE ADRESS',
+    name: 'api.dmitriikapustin.com',
     script: 'npm start', // the path of the script you want to execute,
     // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
     instances: 1,
